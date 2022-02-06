@@ -1,0 +1,229 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Desktop/IP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62994
+Successfully changed project path to: C:/Users/User/Desktop/IP
+C:/Users/User/Desktop/IP
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/IP/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 (ID=0x731f)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   30.0.14011.3017
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002587 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (150ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004939 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of AuthManager:<LoginUser>b__16_0 due to: Could not load file or assembly 'Firebase.Auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Firebase.Auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of AuthManager:<LoginUser>b__16_0 due to: Could not load file or assembly 'Firebase.Auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Firebase.Auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2907 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3284.
+Total: 3.437900 ms (FindLiveObjects: 0.347100 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.925600 ms  DeleteObjects: 0.084000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(b017322d17fc81b46a7d6cea21799770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(b017322d17fc81b46a7d6cea21799770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c04cedc0e680febc61664cdc51e61ba') in 0.016284 seconds 
+  Import took 0.020712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.408022 seconds.
+  path: Assets/Scenes/TestingScene.unity
+  artifactKey: Guid(7d7a40b4b9156e94b88c92fbba00b6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestingScene.unity using Guid(7d7a40b4b9156e94b88c92fbba00b6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df23354232b6b6e25b8f685b93450eab') in 0.007369 seconds 
+  Import took 0.011952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.057249 seconds.
+  path: Assets/MESHES
+  artifactKey: Guid(5bd320b7074fbe84795c620f9f1517ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES using Guid(5bd320b7074fbe84795c620f9f1517ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704d5273280fb466471207044939b1bb') in 0.006950 seconds 
+  Import took 0.011302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015428 seconds.
+  path: Assets/MESHES/TimeDateScreen.fbx
+  artifactKey: Guid(e8861ad72cb432a439f4c97c08073059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TimeDateScreen.fbx using Guid(e8861ad72cb432a439f4c97c08073059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3954d60846cc01a9e1ac25a4f622aa14') in 0.655757 seconds 
+  Import took 0.660118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.094287 seconds.
+  path: Assets/MESHES/TEXTURES
+  artifactKey: Guid(3e5d69e2c355cf64da438cf4018a9242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES using Guid(3e5d69e2c355cf64da438cf4018a9242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1569dd293773d0040ef51aced0de2c1') in 0.005587 seconds 
+  Import took 0.010064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.056120 seconds.
+  path: Assets/MESHES/TEXTURES/Tex_DateTimeScreen
+  artifactKey: Guid(b51373bf7a54f24469859058959b660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES/Tex_DateTimeScreen using Guid(b51373bf7a54f24469859058959b660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b904ccb7b679b0d5ce2edd313dd7c28d') in 0.005606 seconds 
+  Import took 0.009802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028130 seconds.
+  path: Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_AlbedoTransparency.1001.png
+  artifactKey: Guid(acbd00de724da9244a6e8401de15af8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_AlbedoTransparency.1001.png using Guid(acbd00de724da9244a6e8401de15af8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f91a132c03b713f362a52d50eb489b') in 0.305435 seconds 
+  Import took 0.309673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_Normal.1001.png
+  artifactKey: Guid(746b15805c89fbc4fb02e6f810e0ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_Normal.1001.png using Guid(746b15805c89fbc4fb02e6f810e0ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98919c90eaa9c2472f646932e660c04') in 0.160128 seconds 
+  Import took 0.164421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_MetallicSmoothness.1001.png
+  artifactKey: Guid(4cff45460fc64d447a432077bb4c8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_MetallicSmoothness.1001.png using Guid(4cff45460fc64d447a432077bb4c8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c868a4c163f5f8af6e45e44af048c9a') in 0.228924 seconds 
+  Import took 0.235060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.562157 seconds.
+  path: Assets/MESHES/TEXTURES/Tex_DateTimeScreen/Mat_DateTimeScreen.mat
+  artifactKey: Guid(6d3f63bfb6066c446a2e4f68e0b1df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES/Tex_DateTimeScreen/Mat_DateTimeScreen.mat using Guid(6d3f63bfb6066c446a2e4f68e0b1df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feda68e70f2281b941ebdda85fd65428') in 0.015901 seconds 
+  Import took 0.020297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.727091 seconds.
+  path: Assets/MESHES/TEXTURES/Tex_DateTimeScreen/Mat_DateTimeScreen.mat
+  artifactKey: Guid(6d3f63bfb6066c446a2e4f68e0b1df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES/Tex_DateTimeScreen/Mat_DateTimeScreen.mat using Guid(6d3f63bfb6066c446a2e4f68e0b1df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6dad3494fee6af8ee14700c0307f21') in 0.691756 seconds 
+  Import took 0.697563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.397493 seconds.
+  path: Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_Normal.1001.png
+  artifactKey: Guid(746b15805c89fbc4fb02e6f810e0ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MESHES/TEXTURES/Tex_DateTimeScreen/TimeDateScreen_phongE4_Normal.1001.png using Guid(746b15805c89fbc4fb02e6f810e0ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df257ee58d6e3305ef6bf0cc23f5d43') in 0.170906 seconds 
+  Import took 0.175415 seconds .
+
