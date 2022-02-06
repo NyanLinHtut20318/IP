@@ -27,10 +27,7 @@ namespace Lexic
             {
                 return;
             }
-            Debug.Log("indexTemp is " + nameListIndex_temp);
-            Debug.Log("index is " + nameListIndex);
             nameListIndex_temp = nameListIndex;
-            Debug.Log("variable has changed and database is set");
 
             //Sets the database that the names are created with
             if (rng == null)

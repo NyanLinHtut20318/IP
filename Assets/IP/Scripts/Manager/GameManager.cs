@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     [Header("Day Instance Variables")]
     public bool dayActive = false;
+    public int acceptCount;
+    public int rejectCount;
 
     [Header("Days for Difficulty Change")]
     [SerializeField]private int currentDay = 0;
@@ -45,7 +47,6 @@ public class GameManager : MonoBehaviour
         {"validPassport", false},
         {"validArrivalCard", false},
         {"validVisa", false},
-        {"validTicket", false},
         {"validEntryApproval", false}
 
         //Region Specific
@@ -72,6 +73,30 @@ public class GameManager : MonoBehaviour
         {
             ruleBook["validVisa"] = true;
             SpawnManager.GetInstance.maxDisc++;
+        }
+    }
+
+    public void AcceptTraveller()
+    {
+        acceptCount++;
+
+        if (!SpawnManager.GetInstance.validTraveller)
+        {
+            Debug.Log("OH MY GOD YOU SUCK DUDE");
+            //Add to tension meter
+            //Pink Slip
+        }
+    }
+
+    public void RejectTraveller()
+    {
+        rejectCount++;
+
+        if (SpawnManager.GetInstance.validTraveller)
+        {
+            Debug.Log("OH MY GOD YOU SUCK DUDE");
+            //Add to tension meter
+            //Pink Slip
         }
     }
 }
