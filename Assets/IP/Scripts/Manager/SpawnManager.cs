@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Lexic;
+using Ink.Runtime;
 
 public class SpawnManager : MonoBehaviour
 {
@@ -58,7 +59,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (!GameManager.GetInstance.dayActive) //when day not active -> don't execute code
         {
-            Debug.Log("hello");
+            //Debug.Log("hello");
             return;
         }
 
@@ -166,12 +167,14 @@ public class SpawnManager : MonoBehaviour
         {
             //Name
             Passport.transform.GetChild(0).GetComponent<TMP_Text>().text = travelerName;
-
+            DialogueManager.GetInstance.currentStory.variablesState["NAME"] = travelerName;
             //Country
             Passport.transform.GetChild(1).GetComponent<TMP_Text>().text = travelerCountry;
+            DialogueManager.GetInstance.currentStory.variablesState["Country"] = travelerCountry;
 
             //DOB
             Passport.transform.GetChild(2).GetComponent<TMP_Text>().text = travelerDOB;
+            DialogueManager.GetInstance.currentStory.variablesState["DOB"] = travelerDOB;
 
             //Sex
             Passport.transform.GetChild(3).GetComponent<TMP_Text>().text = travelerSex;
@@ -267,7 +270,8 @@ public class SpawnManager : MonoBehaviour
                     Debug.Log("inName");
                     //Display Inconsistent Name
                     //Insert Appropriate Inky Script
-
+                    DialogueManager.GetInstance.currentStory.variablesState["validName"] = "false";
+                    DialogueManager.GetInstance.currentStory.variablesState["NAME"] = nameGenerator.GetNextRandomName();
                     //Add to activeDisc array (might not need to)
                     j++;
                 }
@@ -278,6 +282,8 @@ public class SpawnManager : MonoBehaviour
                     Debug.Log("inCountry");
                     //Display Inconsistent/Invalid City
                     //Insert Appropriate Inky Script
+                    DialogueManager.GetInstance.currentStory.variablesState["validcountry"] = "false";
+                    DialogueManager.GetInstance.currentStory.variablesState["Country"] = "Japan";
                     j++;
                 }
 
@@ -287,6 +293,8 @@ public class SpawnManager : MonoBehaviour
                     Debug.Log("inDOB");
                     //Display Inconsistent/Invalid Date of Birth
                     //Insert Appropriate Inky Script
+                    DialogueManager.GetInstance.currentStory.variablesState["validDOB"] = "false";
+                    DialogueManager.GetInstance.currentStory.variablesState["DOB"] = string.Format("{0}/{1}/{2}", Random.Range(0, 20), Random.Range(1, 13), Random.Range(1946, 2046));
                     j++;
                 }
 
